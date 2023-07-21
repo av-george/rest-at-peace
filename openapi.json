@@ -65,11 +65,8 @@
                         "content": {
                             "application/octet-stream": {
                                 "schema": {
-                                    "oneOf": [
-                                        {
-                                            "type": "string"
-                                        }
-                                    ]
+                                    "type": "string",
+                                    "nullable": true
                                 }
                             }
                         }
@@ -314,11 +311,8 @@
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "oneOf": [
-                                        {
-                                            "type": "string"
-                                        }
-                                    ]
+                                    "type": "string",
+                                    "nullable": true
                                 }
                             }
                         }
