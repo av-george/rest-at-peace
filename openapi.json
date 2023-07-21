@@ -63,7 +63,15 @@
                             }
                         },
                         "content": {
-                            "application/octet-stream": {}
+                            "application/octet-stream": {
+                                "schema": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string"
+                                        }
+                                    ]
+                                }
+                            }
                         }
                     },
                     "400": {
@@ -304,7 +312,15 @@
                             }
                         },
                         "content": {
-                            "application/json": {}
+                            "application/json": {
+                                "schema": {
+                                    "oneOf": [
+                                        {
+                                            "type": "string"
+                                        }
+                                    ]
+                                }
+                            }
                         }
                     },
                     "400": {
