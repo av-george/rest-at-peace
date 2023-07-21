@@ -25,14 +25,6 @@
                 "operationId": "downloadBinary",
                 "parameters": [
                     {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
                         "name": "EntityPath",
                         "in": "path",
                         "required": true,
@@ -97,14 +89,6 @@
                 "summary": "Remove an existing entity or its sub-entity",
                 "operationId": "removeBinary",
                 "parameters": [
-                    {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
                     {
                         "name": "EntityPath",
                         "in": "path",
@@ -175,14 +159,6 @@
                 "summary": "Modify an existing entity or its sub-entity",
                 "operationId": "uploadBinary",
                 "parameters": [
-                    {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
                     {
                         "name": "EntityPath",
                         "in": "path",
@@ -271,14 +247,6 @@
                 "operationId": "getEntity",
                 "parameters": [
                     {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
                         "name": "EntityPath",
                         "in": "path",
                         "required": true,
@@ -343,14 +311,6 @@
                 "summary": "Create a new entity or sub-entity for an existing entity",
                 "operationId": "createEntity",
                 "parameters": [
-                    {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
                     {
                         "name": "EntityPath",
                         "in": "path",
@@ -443,14 +403,6 @@
                 "operationId": "deleteEntity",
                 "parameters": [
                     {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    {
                         "name": "EntityPath",
                         "in": "path",
                         "required": true,
@@ -520,14 +472,6 @@
                 "summary": "Modify an existing entity or its sub-entity",
                 "operationId": "updateEntity",
                 "parameters": [
-                    {
-                        "name": "EntityPath:.+",
-                        "in": "path",
-                        "required": true,
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
                     {
                         "name": "EntityPath",
                         "in": "path",
